@@ -170,7 +170,7 @@ class SummaryOfQuestion extends StatelessWidget {
 
 class FillColor extends StatelessWidget {
   final double width;
-  FillColor({required this.width});
+  FillColor({this.width});
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -186,7 +186,7 @@ class FillColor extends StatelessWidget {
 
 class CheckMark extends StatelessWidget {
   final double length;
-  CheckMark({required this.length});
+  CheckMark({this.length});
   @override
   Widget build(BuildContext context) {
     return Positioned(
